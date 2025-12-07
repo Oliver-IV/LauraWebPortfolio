@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-coquette-base text-coquette-text font-body antialiased;
+  /* Patrón de puntitos sutil */
+  background-image: radial-gradient(#ffb7b2 1.5px, transparent 1.5px);
+  background-size: 30px 30px;
+}
+
+/* Scrollbar personalizada rosa */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fff0f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffb7b2;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff9e99;
+}

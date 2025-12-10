@@ -1,46 +1,113 @@
 export const portfolioCategories = [
   {
     id: 1,
-    title: "Chasing Shadows",
-    category: "Sports & Action",
+    title: "Portrait Photo Album",
+    category: "Portraits",
     images: [
-        "https://imgs.search.brave.com/OldTA6oTKWF4_eMhtUD_4zfl0MwKdx--tzyw9taexHo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9paDEu/cmVkYnViYmxlLm5l/dC9pbWFnZS40NTU1/MjEzOTI5LjAyODEv/cmFmLDM2MHgzNjAs/MDc1LHQsZmFmYWZh/OmNhNDQzZjQ3ODYu/anBn",
-        "https://imgs.search.brave.com/_5UBjGXyqgSH-GlriMdJr485QgY5f8BTo6QMYFXzt8o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTU3/NDMwNjc4L2VzL2Zv/dG8vdHJlcy1kZS1w/YXBhcy5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9VGFzYzVD/cVRYUmRraUFIWk5J/MlhTWmZlc2hfb3Zu/amdiZXMxUXVvUnNj/cz0",
-        "https://imgs.search.brave.com/YZ2FcDmfm-IAe57t48WzgDdWnGwF2EiQsj2lB2_TILE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjIz/Njk4MjE0MS9lcy9m/b3RvL3JpY2htb25k/LWNhbGlmb3JuaWEt/dGhlLXNpZ24tZm9y/LWFuLWVsLXBvbGxv/LWxvY28tcmVzdGF1/cmFudC1pcy1wb3N0/ZWQtb3V0LWZyb250/LW9uLXNlcHRlbWJl/ci5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9OTJjUDBvSGVM/M1A0dmo0VWlrSDBY/ay1aYTlXMlI3X0Jp/S3ZPYkhpVjcwRT0",
-        "https://imgs.search.brave.com/zGDLvPSoSiPR1phYkU6XBfuLYAxUIT7F0X8M8EM7OqE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bWVtZS1hcnNlbmFs/LmNvbS9tZW1lcy9m/ODljY2Y1NjRmZGY3/MzQzOTY0MDE2NTIy/YjNlZTIyYS5qcGc"
+        { main: "/images/portrait-photo/portrait-1.webp", thumb: "/images/portrait-photo/portrait-1.thumb.webp" },
+        { main: "/images/portrait-photo/portrait-2.webp", thumb: "/images/portrait-photo/portrait-2.thumb.webp" },
+        { main: "/images/portrait-photo/portrait-3.webp", thumb: "/images/portrait-photo/portrait-3.thumb.webp" },
+        { main: "/images/portrait-photo/portrait-4.webp", thumb: "/images/portrait-photo/portrait-4.thumb.webp" },
+        { main: "/images/portrait-photo/portrait-5.webp", thumb: "/images/portrait-photo/portrait-5.thumb.webp" },
+        { main: "/images/portrait-photo/portrait-6.webp", thumb: "/images/portrait-photo/portrait-6.thumb.webp" },
+        { main: "/images/portrait-photo/portrait-7.webp", thumb: "/images/portrait-photo/portrait-7.thumb.webp" },
+        { main: "/images/portrait-photo/portrait-8.webp", thumb: "/images/portrait-photo/portrait-8.thumb.webp" },
+        { main: "/images/portrait-photo/portrait-9.webp", thumb: "/images/portrait-photo/portrait-9.thumb.webp" },
+        { main: "/images/portrait-photo/portrait-10.webp", thumb: "/images/portrait-photo/portrait-10.thumb.webp" },
+        { main: "/images/portrait-photo/portrait-11.webp", thumb: "/images/portrait-photo/portrait-11.thumb.webp" },
+        { main: "/images/portrait-photo/portrait-12.webp", thumb: "/images/portrait-photo/portrait-12.thumb.webp" },
+        { main: "/images/portrait-photo/portrait-13.webp", thumb: "/images/portrait-photo/portrait-13.thumb.webp" },
+        { main: "/images/portrait-photo/portrait-14.webp", thumb: "/images/portrait-photo/portrait-14.thumb.webp" },
+        { main: "/images/portrait-photo/portrait-15.webp", thumb: "/images/portrait-photo/portrait-15.thumb.webp" }
     ]
   },
   {
     id: 2,
-    title: "Ethereal Portraits",
-    category: "Portraits",
+    title: "Event Photography Album",
+    category: "Events",
     images: [
-        "https://imgs.search.brave.com/OldTA6oTKWF4_eMhtUD_4zfl0MwKdx--tzyw9taexHo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9paDEu/cmVkYnViYmxlLm5l/dC9pbWFnZS40NTU1/MjEzOTI5LjAyODEv/cmFmLDM2MHgzNjAs/MDc1LHQsZmFmYWZh/OmNhNDQzZjQ3ODYu/anBn",
-        "https://imgs.search.brave.com/_5UBjGXyqgSH-GlriMdJr485QgY5f8BTo6QMYFXzt8o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTU3/NDMwNjc4L2VzL2Zv/dG8vdHJlcy1kZS1w/YXBhcy5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9VGFzYzVD/cVRYUmRraUFIWk5J/MlhTWmZlc2hfb3Zu/amdiZXMxUXVvUnNj/cz0",
-        "https://imgs.search.brave.com/YZ2FcDmfm-IAe57t48WzgDdWnGwF2EiQsj2lB2_TILE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjIz/Njk4MjE0MS9lcy9m/b3RvL3JpY2htb25k/LWNhbGlmb3JuaWEt/dGhlLXNpZ24tZm9y/LWFuLWVsLXBvbGxv/LWxvY28tcmVzdGF1/cmFudC1pcy1wb3N0/ZWQtb3V0LWZyb250/LW9uLXNlcHRlbWJl/ci5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9OTJjUDBvSGVM/M1A0dmo0VWlrSDBY/ay1aYTlXMlI3X0Jp/S3ZPYkhpVjcwRT0",
-        "https://imgs.search.brave.com/zGDLvPSoSiPR1phYkU6XBfuLYAxUIT7F0X8M8EM7OqE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bWVtZS1hcnNlbmFs/LmNvbS9tZW1lcy9m/ODljY2Y1NjRmZGY3/MzQzOTY0MDE2NTIy/YjNlZTIyYS5qcGc"
+        { main: "/images/event-photo/photo-1.webp", thumb: "/images/event-photo/photo-1.thumb.webp" },
+        { main: "/images/event-photo/photo-2.webp", thumb: "/images/event-photo/photo-2.thumb.webp" },
+        { main: "/images/event-photo/photo-3.webp", thumb: "/images/event-photo/photo-3.thumb.webp" },
+        { main: "/images/event-photo/photo-4.webp", thumb: "/images/event-photo/photo-4.thumb.webp" },
+        { main: "/images/event-photo/photo-5.webp", thumb: "/images/event-photo/photo-5.thumb.webp" },
+        { main: "/images/event-photo/photo-6.webp", thumb: "/images/event-photo/photo-6.thumb.webp" },
+        { main: "/images/event-photo/photo-7.webp", thumb: "/images/event-photo/photo-7.thumb.webp" },
+        { main: "/images/event-photo/photo-8.webp", thumb: "/images/event-photo/photo-8.thumb.webp" },
+        { main: "/images/event-photo/photo-9.webp", thumb: "/images/event-photo/photo-9.thumb.webp" },
+        { main: "/images/event-photo/photo-10.webp", thumb: "/images/event-photo/photo-10.thumb.webp" }
     ]
   },
   {
     id: 3,
-    title: "Nature's Whispers",
-    category: "Landscapes",
+    title: "Event 2 Photography",
+    category: "Events",
     images: [
-        "https://imgs.search.brave.com/OldTA6oTKWF4_eMhtUD_4zfl0MwKdx--tzyw9taexHo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9paDEu/cmVkYnViYmxlLm5l/dC9pbWFnZS40NTU1/MjEzOTI5LjAyODEv/cmFmLDM2MHgzNjAs/MDc1LHQsZmFmYWZh/OmNhNDQzZjQ3ODYu/anBn",
-        "https://imgs.search.brave.com/_5UBjGXyqgSH-GlriMdJr485QgY5f8BTo6QMYFXzt8o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTU3/NDMwNjc4L2VzL2Zv/dG8vdHJlcy1kZS1w/YXBhcy5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9VGFzYzVD/cVRYUmRraUFIWk5J/MlhTWmZlc2hfb3Zu/amdiZXMxUXVvUnNj/cz0",
-        "https://imgs.search.brave.com/YZ2FcDmfm-IAe57t48WzgDdWnGwF2EiQsj2lB2_TILE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjIz/Njk4MjE0MS9lcy9m/b3RvL3JpY2htb25k/LWNhbGlmb3JuaWEt/dGhlLXNpZ24tZm9y/LWFuLWVsLXBvbGxv/LWxvY28tcmVzdGF1/cmFudC1pcy1wb3N0/ZWQtb3V0LWZyb250/LW9uLXNlcHRlbWJl/ci5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9OTJjUDBvSGVM/M1A0dmo0VWlrSDBY/ay1aYTlXMlI3X0Jp/S3ZPYkhpVjcwRT0",
-        "https://imgs.search.brave.com/zGDLvPSoSiPR1phYkU6XBfuLYAxUIT7F0X8M8EM7OqE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bWVtZS1hcnNlbmFs/LmNvbS9tZW1lcy9m/ODljY2Y1NjRmZGY3/MzQzOTY0MDE2NTIy/YjNlZTIyYS5qcGc"
+        { main: "/images/event-2-photo/event-1.webp", thumb: "/images/event-2-photo/event-1.thumb.webp" },
+        { main: "/images/event-2-photo/event-2.webp", thumb: "/images/event-2-photo/event-2.thumb.webp" },
+        { main: "/images/event-2-photo/event-3.webp", thumb: "/images/event-2-photo/event-3.thumb.webp" },
+        { main: "/images/event-2-photo/event-4.webp", thumb: "/images/event-2-photo/event-4.thumb.webp" },
+        { main: "/images/event-2-photo/event-5.webp", thumb: "/images/event-2-photo/event-5.thumb.webp" },
+        { main: "/images/event-2-photo/event-6.webp", thumb: "/images/event-2-photo/event-6.thumb.webp" },
+        { main: "/images/event-2-photo/event-7.webp", thumb: "/images/event-2-photo/event-7.thumb.webp" },
+        { main: "/images/event-2-photo/event-8.webp", thumb: "/images/event-2-photo/event-8.thumb.webp" },
+        { main: "/images/event-2-photo/event-9.webp", thumb: "/images/event-2-photo/event-9.thumb.webp" }
     ]
   },
   {
     id: 4,
-    title: "Sweet Details",
-    category: "Product & Macro",
+    title: "Non Human Photo Album",
+    category: "Creative",
     images: [
-        "https://imgs.search.brave.com/OldTA6oTKWF4_eMhtUD_4zfl0MwKdx--tzyw9taexHo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9paDEu/cmVkYnViYmxlLm5l/dC9pbWFnZS40NTU1/MjEzOTI5LjAyODEv/cmFmLDM2MHgzNjAs/MDc1LHQsZmFmYWZh/OmNhNDQzZjQ3ODYu/anBn",
-        "https://imgs.search.brave.com/_5UBjGXyqgSH-GlriMdJr485QgY5f8BTo6QMYFXzt8o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTU3/NDMwNjc4L2VzL2Zv/dG8vdHJlcy1kZS1w/YXBhcy5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9VGFzYzVD/cVRYUmRraUFIWk5J/MlhTWmZlc2hfb3Zu/amdiZXMxUXVvUnNj/cz0",
-        "https://imgs.search.brave.com/YZ2FcDmfm-IAe57t48WzgDdWnGwF2EiQsj2lB2_TILE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjIz/Njk4MjE0MS9lcy9m/b3RvL3JpY2htb25k/LWNhbGlmb3JuaWEt/dGhlLXNpZ24tZm9y/LWFuLWVsLXBvbGxv/LWxvY28tcmVzdGF1/cmFudC1pcy1wb3N0/ZWQtb3V0LWZyb250/LW9uLXNlcHRlbWJl/ci5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9OTJjUDBvSGVM/M1A0dmo0VWlrSDBY/ay1aYTlXMlI3X0Jp/S3ZPYkhpVjcwRT0",
-        "https://imgs.search.brave.com/zGDLvPSoSiPR1phYkU6XBfuLYAxUIT7F0X8M8EM7OqE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bWVtZS1hcnNlbmFs/LmNvbS9tZW1lcy9m/ODljY2Y1NjRmZGY3/MzQzOTY0MDE2NTIy/YjNlZTIyYS5qcGc"
+        { main: "/images/non-human-photo/non-human-1.webp", thumb: "/images/non-human-photo/non-human-1.thumb.webp" },
+        { main: "/images/non-human-photo/non-human-2.webp", thumb: "/images/non-human-photo/non-human-2.thumb.webp" },
+        { main: "/images/non-human-photo/non-human-3.webp", thumb: "/images/non-human-photo/non-human-3.thumb.webp" },
+        { main: "/images/non-human-photo/non-human-4.webp", thumb: "/images/non-human-photo/non-human-4.thumb.webp" },
+        { main: "/images/non-human-photo/non-human-5.webp", thumb: "/images/non-human-photo/non-human-5.thumb.webp" },
+        { main: "/images/non-human-photo/non-human-6.webp", thumb: "/images/non-human-photo/non-human-6.thumb.webp" },
+        { main: "/images/non-human-photo/non-human-7.webp", thumb: "/images/non-human-photo/non-human-7.thumb.webp" },
+        { main: "/images/non-human-photo/non-human-8.webp", thumb: "/images/non-human-photo/non-human-8.thumb.webp" },
+        { main: "/images/non-human-photo/non-human-9.webp", thumb: "/images/non-human-photo/non-human-9.thumb.webp" },
+        { main: "/images/non-human-photo/non-human-10.webp", thumb: "/images/non-human-photo/non-human-10.thumb.webp" },
+        { main: "/images/non-human-photo/non-human-11.webp", thumb: "/images/non-human-photo/non-human-11.thumb.webp" },
+        { main: "/images/non-human-photo/non-human-12.webp", thumb: "/images/non-human-photo/non-human-12.thumb.webp" },
+        { main: "/images/non-human-photo/non-human-13.webp", thumb: "/images/non-human-photo/non-human-13.thumb.webp" },
+        { main: "/images/non-human-photo/non-human-14.webp", thumb: "/images/non-human-photo/non-human-14.thumb.webp" },
+        { main: "/images/non-human-photo/non-human-15.webp", thumb: "/images/non-human-photo/non-human-15.thumb.webp" },
+        { main: "/images/non-human-photo/non-human-16.webp", thumb: "/images/non-human-photo/non-human-16.thumb.webp" },
+        { main: "/images/non-human-photo/non-human-17.webp", thumb: "/images/non-human-photo/non-human-17.thumb.webp" }
+    ]
+  },
+  {
+    id: 5,
+    title: "Food/Product Photography",
+    category: "Commercial",
+    images: [
+        { main: "/images/food-product-photo/food-1.webp", thumb: "/images/food-product-photo/food-1.thumb.webp" },
+        { main: "/images/food-product-photo/food-2.webp", thumb: "/images/food-product-photo/food-2.thumb.webp" },
+        { main: "/images/food-product-photo/food-3.webp", thumb: "/images/food-product-photo/food-3.thumb.webp" },
+        { main: "/images/food-product-photo/food-4.webp", thumb: "/images/food-product-photo/food-4.thumb.webp" },
+        { main: "/images/food-product-photo/food-5.webp", thumb: "/images/food-product-photo/food-5.thumb.webp" },
+        { main: "/images/food-product-photo/food-6.webp", thumb: "/images/food-product-photo/food-6.thumb.webp" }
+    ]
+  },
+  {
+    id: 6,
+    title: "Other Photo Album",
+    category: "Creative",
+    images: [
+        { main: "/images/other-photo/other-1.webp", thumb: "/images/other-photo/other-1.thumb.webp" },
+        { main: "/images/other-photo/other-2.webp", thumb: "/images/other-photo/other-2.thumb.webp" },
+        { main: "/images/other-photo/other-3.webp", thumb: "/images/other-photo/other-3.thumb.webp" },
+        { main: "/images/other-photo/other-4.webp", thumb: "/images/other-photo/other-4.thumb.webp" },
+        { main: "/images/other-photo/other-5.webp", thumb: "/images/other-photo/other-5.thumb.webp" },
+        { main: "/images/other-photo/other-6.webp", thumb: "/images/other-photo/other-6.thumb.webp" },
+        { main: "/images/other-photo/other-7.webp", thumb: "/images/other-photo/other-7.thumb.webp" },
+        { main: "/images/other-photo/other-8.webp", thumb: "/images/other-photo/other-8.thumb.webp" },
+        { main: "/images/other-photo/other-9.webp", thumb: "/images/other-photo/other-9.thumb.webp" },
+        { main: "/images/other-photo/other-10.webp", thumb: "/images/other-photo/other-10.thumb.webp" },
+        { main: "/images/other-photo/other-11.webp", thumb: "/images/other-photo/other-11.thumb.webp" },
+        { main: "/images/other-photo/other-12.webp", thumb: "/images/other-photo/other-12.thumb.webp" }
     ]
   }
 ];

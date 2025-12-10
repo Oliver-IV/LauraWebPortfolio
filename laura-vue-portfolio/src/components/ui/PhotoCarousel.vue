@@ -30,11 +30,11 @@ const selectImage = (index) => {
       
       <div 
         class="flex transition-transform duration-700 ease-out" 
-        :style="{ transform: `translateX(-${currentIndex * 100}%)` }"
+        :style="{ transform: `translateX(-${currentIndex * 100}%)`, willChange: 'transform' }"
       >
-        <div v-for="(img, index) in images" :key="index" class="min-w-full relative">
+        <div v-for="(item, index) in images" :key="index" class="min-w-full relative">
           <img 
-            :src="img" 
+            :src="item.main" 
             class="w-full h-[400px] md:h-[500px] object-cover" 
             alt="Portfolio Highlight" 
           />
@@ -60,7 +60,7 @@ const selectImage = (index) => {
     <div class="px-2">
       <div class="flex justify-center gap-3 flex-wrap">
         <button 
-          v-for="(img, index) in images" 
+          v-for="(item, index) in images" 
           :key="'thumb-'+index"
           @click="selectImage(index)"
           class="relative w-16 h-16 md:w-20 md:h-20 rounded-xl overflow-hidden transition-all duration-300 ease-in-out border-2"
@@ -71,7 +71,7 @@ const selectImage = (index) => {
           ]"
         >
           <img 
-            :src="img" 
+            :src="item.thumb" 
             class="w-full h-full object-cover" 
             alt="Thumbnail" 
           />

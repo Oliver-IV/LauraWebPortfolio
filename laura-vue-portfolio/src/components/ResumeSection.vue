@@ -5,8 +5,7 @@
       <div class="absolute -top-4 left-1/2 -translate-x-1/2 w-32 h-8 bg-coquette-main/80 rotate-[-2deg] shadow-sm backdrop-blur-sm"></div>
 
       <div class="text-center mb-10 border-b-2 border-dashed border-pink-100 pb-8">
-        <h2 class="font-fancy text-5xl text-coquette-accent mb-4">Curriculum Vitae</h2>
-        <p class="font-fancy text-2xl text-coquette-main">"Capturing memories, one click at a time"</p>
+        <h2 class="font-fancy text-5xl text-coquette-accent mb-4">Resume</h2>
       </div>
 
       <div class="space-y-8 font-body text-gray-600">
